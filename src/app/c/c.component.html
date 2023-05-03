@@ -1,0 +1,405 @@
+<section class="section-hero  inner-page fixed;" style="background:#2474A6;" id="home-section">
+</section>
+<div class="site-wrap">
+
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
+    </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>  <!-- .site-mobile-menu -->
+
+
+<!-- NAVBAR --> 
+
+
+<header class="site-navbar mt-4">
+    
+
+  <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="site-logo col-6 "><a href="index.html" ><img src="assets/images/sarra.png" style="width: 100;"alt="" title=""></a></div>
+
+      <nav class="mx-auto site-navigation d-flex aligin-items-center col-5">
+        <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+          <li><a href="/actualite">Actualité</a></li>
+          <li><a href="offre">offre</a></li>
+          <li><a href="event">Event</a></li>
+          <li><a href="cow">Coworking</a></li>
+          <li class="nav-item dropdown">
+            <a class=" nav-icon"  (click)="showNotifications = !showNotifications">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications" [ngClass]="{'show': showNotifications}">
+              <li class="dropdown-header ">
+                Vous avez 4 nouvelles notifications
+                <a href="notification"><span class="badge rounded-pill bg-primary p-2 ms-2">Voir tout</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4">
+                <div>
+                  <h5 style="color: #2474A6 ;font-size: 19px;">Wevioo</h5>
+                  <p>Un test envoyé par Wevioo vous attent</p>
+                  <p class="small-text">30 min. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr role="tabpanel"class="dropdown-divider">
+              </li>
+          
+              <li class="notification-item p-4 ">
+                <div>
+                  <h5 style="color: #2474A6  ;font-size: 19px;">CareerBridge</h5>
+                  <p>Vous atteint 75 Xp vous pouvez profiter une réduction sur la pack premium</p>
+                  <p class="small-text">1 hr. ago</p>
+                </div>
+              </li>
+          
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          
+              <li class="dropdown-footer p-4">
+                <a href="notification">Afficher toutes les notifications</a>
+              </li>
+            </ul>
+          </li>            <li class="nav-item dropdown" style="color: aliceblue;">
+            <div class="nav-link" id="dropDown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-grid-3x3-gap-fill large-icon"></i>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropDown">
+              <a class="dropdown-item" href="#">Pack premium</a>
+              <a class="dropdown-item "style="color: #2474A6;" href="#" >1Xp</a>
+             
+            </div>
+          </li>
+          <div class=" d-lg-none nav-item dropdown">
+            <div class="nav-link " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src=" assets/images/person_2.jpg" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu " aria-labelledby="profileDropdown">
+              <a class="dropdown-item " href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a class="dropdown-item " href="login">Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+          </div>   
+          
+        </ul>
+      </nav>
+      
+      <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+        <div class="ml-auto">
+        
+            <div class=" .d-md-none .d-lg-block
+            " id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src=" assets/images/person_2.jpg" class="img-fluid rounded-circle " style="width: 40px;"> <!-- icône de profil -->
+            </div>
+            <div class="dropdown-menu" aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="c">Profile</a> <!-- lien vers les paramètres -->
+              <a class="dropdown-item " href="parametre">Paramétres</a> <!-- lien vers les paramètres -->
+
+              <a class="dropdown-item" href="login">Déconnexion</a> <!-- lien de déconnexion -->
+            </div>
+        </div>
+        <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+      </div>
+
+    </div>
+  </div>
+
+
+</header>
+
+
+
+
+<!--== Start Page Header Area Wrapper ==-->
+<div class="page-header-area sec-overlay sec-overlay-black">
+  <div class="container pt--0 pb--0">
+    <div class="row">
+      <div class="col-12">
+        <div class="page-header-content">
+          <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file-upload">
+              <img class="upload" src="assets/images/photo.png">
+            </label>
+            <input id="file-upload" type="file">
+
+          </form>
+          <h4 class="text-white font-weight-bold">Ajouter une image de bannière
+            Dimensions optimales 3200 x 410px</h4>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="body">
+  <div class="profile text-center">
+    <div class="row mb-3">
+      <img src="assets/images/person_2.jpg"  class="profile-pic ">
+    </div>
+    <p class="name">
+      Ahmed Ayari
+    </p>
+    <p class="email">
+      <a href="{{'wevioo@gmail.com'}}">wevioo@gmail.com</a>
+
+    </p>
+    
+      <h5 class="  text-muted "><i class="bi bi-geo-alt"></i>Ariana</h5>
+      <div class="social-links mt-3 text-center"><div class="d-flex justify-content-center rounded-3 p-2 mb-2"
+        >
+       
+      <div>
+                                               
+        <p class="mb-0">41</p>
+        <p class="small text-muted mb-1">Evenement</p>
+      </div><span class="mx-2">|</span>
+      <div class="px-3">
+        
+        <p class="mb-0">9</p>
+        <p class="small text-muted mb-1">Offre publieé</p>
+      </div><span class="mx-2">|</span>
+      <div>
+        
+        <p class="mb-0">8.5</p>
+        <p class="small text-muted mb-1">Abonnés</p>
+      
+</div></div>
+
+<button class="buttons">Modifier</button>
+
+
+    <form>
+      <p class="text-left titles mt-4">Information de Base</p>
+      <div class="row">
+        <div class="col-5 mr-4 ml-4">
+          <label>Nom</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="col-5">
+          <label>Prénom</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label1">Profession</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 mr-4 ml-4">
+          <label class="zone ml-1">Zone Géographique</label>
+          <select class="form-control">
+            <option value="0">Tunisie</option>
+            <option value="0">Tunisie</option>
+            <option value="0">Tunisie</option>
+          </select>
+
+        </div>
+
+        <div class="col-5">
+          <label>City</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+
+      <p class="text-left titles mt-4">A propos de moi</p>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label1">Titre de section</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label1">Description</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </div>
+      <button class="buttons mt-3">OK</button>
+
+      <p class="text-left titles mt-4">Expérience professionnel</p>
+      <div *ngFor="let item of exp">
+        <div class="row">
+
+          <div class="col-5 ml-4">
+            <label>Entreprise</label>
+            <input type="text" class="form-control" [(ngModel)]="item.entreprise">
+          </div>
+
+          <div class="col-5">
+            <label class="zone">City</label>
+            <input type="text" class="form-control" [(ngModel)]="item.city">
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-11 ml-4">
+            <label class="label1">Fonction</label>
+            <input type="text" class="form-control" [(ngModel)]="item.fonction">
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-5 ml-4">
+            <label>Date Début</label>
+            <input type="date" class="form-control" [(ngModel)]="item.debut">
+          </div>
+          <div class="col-5">
+            <label>Date Fin</label>
+            <input type="date" class="form-control" [(ngModel)]="item.fin">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-11 ml-4">
+            <label class="label1">Détail</label>
+            <textarea class="form-control" [(ngModel)]="item.details"></textarea>
+          </div>
+        </div>
+
+      </div>
+      <p class="add-data text-left"><a (click)="addexp()">+ Ajouter une expérience professionnel</a></p>
+
+      <p class="text-left titles mt-4">Formation</p>
+      <div *ngFor="let item of formation">
+        <div class="row">
+          <div class="col-11 ml-4">
+            <label class="label1">Centre </label>
+            <input type="text" class="form-control" [(ngModel)]="item.centre">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-11 ml-4">
+            <label class="label1">Diplôme</label>
+            <input type="text" class="form-control" [(ngModel)]="item.diplome">
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-5 ml-4">
+            <label>Date Début</label>
+            <input type="date" class="form-control" [(ngModel)]="item.debut">
+          </div>
+          <div class="col-5">
+            <label>Date Fin</label>
+            <input type="date" class="form-control" [(ngModel)]="item.fin">
+          </div>
+        </div>
+
+      </div>
+      <p class="add-data text-left"><a (click)="addformation()"> + Ajouter une formation</a></p>
+
+      <p class="text-left titles mt-4">Langue</p>
+      <div class="row" *ngFor="let item of langue">
+
+        <div class="col-5 ml-4">
+          <label>Langue</label>
+          <input type="text" class="form-control" [(ngModel)]="item.langue">
+        </div>
+
+        <div class="col-5">
+          <label class="zone">Niveu</label>
+          <select class="form-control" [(ngModel)]="item.niveau">
+            <option value="0">A1</option>
+            <option value="0">A2</option>
+            <option value="0">B1</option>
+            <option value="0">B2</option>
+            <option value="0">C1</option>
+            <option value="0">C2</option>
+          </select>
+        </div>
+
+      </div>
+      <p class="add-data text-left"><a (click)="addlangue()">+ Ajouter une langue</a></p>
+
+      <p class="text-left titles mt-4">Parcours Universitaire</p>
+
+      <div *ngFor="let item of university">
+        <div class="row">
+          <div class="col-11 ml-4">
+            <label class="label1">Faculté</label>
+            <input type="text" class="form-control" [(ngModel)]="item.fac">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-11 ml-4">
+            <label class="label1">Diplôme</label>
+            <input type="text" class="form-control" [(ngModel)]="item.diplome">
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-5 ml-4">
+            <label>Date Début</label>
+            <input type="date" class="form-control" [(ngModel)]="item.debut">
+          </div>
+          <div class="col-5">
+            <label>Date Fin</label>
+            <input type="date" class="form-control" [(ngModel)]="item.fin">
+          </div>
+        </div>
+
+      </div>
+
+      <p class="add-data text-left"><a (click)="adduniversity()">+ Ajouter votre parcours Universitaire</a></p>
+
+      <p class="text-left titles mt-4">Compétence</p>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <input type="text" class="form-control">
+        </div>
+      </div>
+
+      <p class="text-left titles mt-4">Section personlisée</p>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label2">Titre</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-11 ml-4">
+          <label class="label2">Détails</label>
+          <textarea class="form-control"></textarea>
+        </div>
+      </div>
+    </form>
+
+    <div class="projects">
+      <div class="section-title">Projects</div>
+      <div class="project pt-5">
+        <a>
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M15.5833 26H36.4167M26 15.5833V36.4167M51 26C51 39.8071 39.8071 51 26 51C12.1929 51 1 39.8071 1 26C1 12.1929 12.1929 1 26 1C39.8071 1 51 12.1929 51 26Z"
+              stroke="black" stroke-opacity="0.68" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <p class="ajout">Ajouter Projet</p>
+          <input type="file" (change)="onFileSelected($event)">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
