@@ -27,6 +27,12 @@ import { NotificationRComponent } from './notification-r/notification-r.componen
 import { DetailcoworkingRComponent } from './detailcoworking-r/detailcoworking-r.component';
 import { NotificationComponent } from './notification/notification.component';
 import { CandidaturesCComponent } from './candidatures-c/candidatures-c.component';
+import { CandidaturesRComponent } from './candidatures-r/candidatures-r.component';
+import { FicheCComponent } from './fiche-c/fiche-c.component';
+import { ListeComponent } from './liste/liste.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { QuestionComponent } from './question/question.component';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
@@ -55,8 +61,15 @@ const routes: Routes = [
   {path :"notificationR",component:NotificationRComponent},
   {path :"detailcoworkingR",component:DetailcoworkingRComponent},
   {path :"notification",component:NotificationComponent},
+  {path :"candidaturesR",component:CandidaturesRComponent},
 
   {path :"candidaturesC",component:CandidaturesCComponent},
+  {path :"ficheC",component:FicheCComponent},
+  {path :"liste",component:ListeComponent},
+  {path :"welcome",component:WelcomeComponent},
+  {path :"question",component:QuestionComponent},
+
+  {path :"test",component:TestComponent},
 
   {path: '', redirectTo: '/home', pathMatch: 'full'},
 ];

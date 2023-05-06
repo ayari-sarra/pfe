@@ -3,7 +3,18 @@ form {
     justify-content: center;
     align-items: center;
   }
-  
+  .fa-facebook-square {
+    color: white;
+  }
+  .icon {
+    color: white;
+  }
+  .bi-grid-3x3-gap-fill {
+    color: white;
+  }
+  .white-icon {
+    color: white;
+  }
   input[type="text"] {
     width: 300px;
     padding: 10px;

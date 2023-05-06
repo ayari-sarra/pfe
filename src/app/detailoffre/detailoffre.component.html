@@ -42,7 +42,7 @@
                 <hr class="dropdown-divider">
               </li>
           
-              <li class="notification-item p-4">
+              <li class="notification-item p-4"routerLink="/welcome">
                 <div>
                   <h5 style="color: #2474A6 ;font-size: 19px;">Wevioo</h5>
                   <p>Un test envoyé par Wevioo vous attent</p>
@@ -239,39 +239,20 @@
                                   </div>
                                   <div class="modal-body">
                                     <form>
-                                     <div class="container">
-                               
-                                       <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-                               
-                                         <div class="col-md-6">
-                                      <div class="mb-3">
-                                        <label for="Intitulé-name" class="col-form-label">Intitulé:</label>
-                                        <input type="text" class="form-control" id="Intitulé-name">
+                                      <div *ngIf="showForm">
+                                        <h4 style="color: #2474A6;" class="condidat">Condidature pour l'offre</h4>
+                    
+                                        <label>Lien portfolio</label>
+                                        <input type="text" class="form-control" name="protfolio" placeholder="https://exemple.com">
+                    
+                                        <label class=" mt-4">Importer CV</label>
+                                        <input type="file" class="form-control" name="cv" placeholder="">
+                    
+                                        <label class=" mt-4">Lettre de motivation</label>
+                                        <input type="file" class="form-control" name="lettre" placeholder="">
+                    
+                    
                                       </div>
-                                      <div class="mb-3">
-                                       <label for="Combien-name" class="col-form-label">Combien de personnes est le bureau pour?:</label>
-                                       <input type="text" class="form-control" id="Combien-name">
-                                     </div>
-                                     <div class="mb-3">
-                                       <label for="email-name" class="col-form-label">Adresse E-mail:</label>
-                                       <input type="email" class="form-control" id="email-name">
-                                     </div></div>
-
-
-                                     <div class="col-md-6">
-                                       <div class="mb-3">
-                                         <label for="date-name" class="col-form-label">Date:</label>
-                                         <input type="date"id="date" name="date-coworking" class="form-control  form-control">
-                                       </div>
-                                       <div class="mb-3">
-                                        <label for="temps-name" class="col-form-label">Combien de temps en avez-vous besoin ?:</label>
-                                        <input type="text" class="form-control" id="temps-name">
-                                      </div>
-                                      <div class="mb-3">
-                                        <label for="num-name" class="col-form-label">Téléphone Mobile
-                                         :</label>
-                                        <input type="text" class="form-control" id="num-name">
-                                      </div></div></div></div>
                                     </form>
                                   </div>
                                   <div class="modal-footer">

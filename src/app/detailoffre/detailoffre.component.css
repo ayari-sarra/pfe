@@ -17,7 +17,18 @@
 #dropdown-header {
   padding: 60px 0 60px 0;
 }
-
+.fa-facebook-square {
+  color: white;
+}
+.icon {
+  color: white;
+}
+.bi-grid-3x3-gap-fill {
+  color: white;
+}
+.white-icon {
+  color: white;
+}
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;

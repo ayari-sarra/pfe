@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./r.component.css']
 })
 export class RComponent {
-
+  showNotifications: boolean = false;
+  
+  toggleNotifications() {
+    this.showNotifications = !this.showNotifications;
+   }
+   // ...
 }

@@ -177,7 +177,18 @@
       
 </div></div>
 
-<button class="buttons">Modifier</button>
+
+<div class="row">
+  <div class="col-5 mr-4 ml-4">
+    <button class="buttons">Modifier</button>
+  </div>
+
+  <div class="col-5">
+    <button  class="buttons1" routerLink="/candidaturesC">Mes candidatures</button>
+
+   
+  </div>
+</div>
 
 
     <form>
@@ -385,18 +396,20 @@
       </div>
     </form>
 
-    <div class="projects">
+    <div class="projects mr-5">
       <div class="section-title">Projects</div>
       <div class="project pt-5">
-        <a>
-          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M15.5833 26H36.4167M26 15.5833V36.4167M51 26C51 39.8071 39.8071 51 26 51C12.1929 51 1 39.8071 1 26C1 12.1929 12.1929 1 26 1C39.8071 1 51 12.1929 51 26Z"
-              stroke="black" stroke-opacity="0.68" stroke-width="2" stroke-linecap="round" />
-          </svg>
-          <p class="ajout">Ajouter Projet</p>
-          <input type="file" (change)="onFileSelected($event)">
-        </a>
+        <div class="row1 mt-5 pub-event">
+          <div class="section-title-third">   <label>Nom</label>
+            <input type="text" class="form-control"></div>
+            <div class="section-title-third">   <label>description</label>
+              <input type="text" class="form-control"></div>
+          <div class="card">
+           
+            <img src="assets/images/wrapper.png" class="upload-event">
+            <input type="file" class="upload-1 mt-5">
+            <button class="buttons mt-5 margin-button">Publier</button>
+          </div>
       </div>
 
     </div>

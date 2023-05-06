@@ -16,8 +16,11 @@ export class CandidaturesCComponent {
    }
    // ...
   displayedColumns: string[] = ['position', 'name', 'weight' ,'button'];
+
   dataSource = new MatTableDataSource<Element>(ELEMENT_DATA);
+  
   onCancel(element: Element): void {
+
     // Do something when cancel button is clicked for this element
   }
 }

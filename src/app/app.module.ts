@@ -38,8 +38,16 @@ import { CandidaturesCComponent } from './candidatures-c/candidatures-c.componen
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
+import { CandidaturesRComponent } from './candidatures-r/candidatures-r.component';
+import { FicheCComponent } from './fiche-c/fiche-c.component';
 
-
+import { MatDialogModule } from '@angular/material/dialog';
+import { ListeComponent } from './liste/liste.component';
+import { TestComponent } from './test/test.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { QuestionComponent } from './question/question.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ChangeBgDirective } from './change-bg.directive';
 
 
 @NgModule({
@@ -74,7 +82,14 @@ import { MatTableModule } from '@angular/material/table';
        NotificationRComponent,
        DetailcoworkingRComponent,
        CandidaturesCComponent,
-       
+       CandidaturesRComponent,
+       FicheCComponent,
+       ListeComponent,
+       TestComponent,
+       WelcomeComponent,
+       QuestionComponent,
+       ChangeBgDirective
+      
   ],
   imports: [
     BrowserModule,
@@ -83,7 +98,9 @@ import { MatTableModule } from '@angular/material/table';
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

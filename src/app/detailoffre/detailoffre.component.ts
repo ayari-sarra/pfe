@@ -12,4 +12,10 @@ export class DetailoffreComponent {
    this.showNotifications = !this.showNotifications;
   }
   // ...
+
+
+  showform=false;
+showForm(){
+    this.showform=true;
+  }
 }

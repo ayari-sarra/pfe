@@ -5,6 +5,18 @@ body {
     min-height: 100vh;
     position: relative;
   }
+  .fa-facebook-square {
+    color: white;
+  }
+  .icon {
+    color: white;
+  }
+  .bi-grid-3x3-gap-fill {
+    color: white;
+  }
+  .white-icon {
+    color: white;
+  }
   a {
     text-decoration: none;
   }
